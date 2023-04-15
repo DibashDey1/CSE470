@@ -1,0 +1,37 @@
+<% include partials/extra %>
+
+    <div class="box" id="heading">
+        <h1>
+            <%= listTitle %>
+        </h1>
+    </div>
+
+    <div class="box">
+
+
+        <% newListItems.forEach(function(item){ %>
+
+
+
+            <body class="text-center">
+
+                <form action="/payment" method="post">
+
+                    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                    <input type="text" name="fName" class="form-control" placeholder="First Name" required autofocus>
+
+                    <input type="text" name="lName" class="form-control" placeholder="Last Name" required>
+
+                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+
+                    <input type="password" name="pass" class="form-control" placeholder="Password" required>
+
+
+
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                    <p class="mt-5 mb-3 text-muted">&copy; FitnessHeroes </p>
+                </form>
+            </body>
+
+    </div>

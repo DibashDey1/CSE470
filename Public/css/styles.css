@@ -1,0 +1,262 @@
+body {
+    font-family: montserrat;
+}
+
+#title {
+    background-color: rgb(13, 31, 60);
+    color: white;
+}
+
+
+
+h1 {
+    font-family: montserrat-black;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 0% 1%;
+
+}
+
+
+
+.container-fluid1 {
+    padding: 1% 1%;
+}
+
+.container-fluid2 :hover {
+    color: rgb(73, 232, 203);
+}
+
+.container-fluid2 {
+    padding: 6% 25%;
+}
+
+/* navigation bar */
+
+.navbar-brand {
+    font-family: ubuntu;
+
+}
+
+.navbar-brand:hover {
+    color: rgb(73, 232, 203);
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-item :hover {
+    color: rgb(73, 232, 203);
+}
+
+/* buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* about */
+
+#about {
+    background-color: rgb(24, 36, 55);
+    color: white;
+
+}
+
+.us :hover {
+    color: rgb(73, 232, 203);
+}
+
+.about-box {
+    text-align: center;
+    padding: 5%
+}
+
+h3 {
+    font-family: montserrat-black;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: red;
+}
+
+.us {
+    padding: 2%;
+    font-family: montserrat-black;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+#Equipments {
+    background-color: rgb(13, 31, 60);
+}
+
+.equpic {
+    padding: 1% 2%;
+}
+
+.emni {
+    padding: 2% 0%;
+}
+
+.container-fluid4 :hover {
+    color: rgb(73, 232, 203);
+}
+
+#Packages {
+    background-color: rgb(31, 71, 106);
+    color: white;
+}
+
+.mem {
+    text-align: center;
+    padding: 6% 0%;
+}
+
+
+
+
+/*--------------------------------------------------------------
+  # Team
+  --------------------------------------------------------------*/
+.team .member {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+    height: 100%;
+}
+
+.team .member .pic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.team .member .pic img {
+    transition: ease-in-out 0.3s;
+}
+
+.team .member:hover {
+    transform: translateY(-10px);
+}
+
+.team .member .member-info {
+    padding-left: 30px;
+}
+
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #37517e;
+}
+
+.team .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.team .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+}
+
+.team .member p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.team .member .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.team .member .social a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #7ba4f6;
+}
+
+.team .member .social a i {
+    color: #37517e;
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.team .member .social a:hover {
+    background: #111112;
+}
+
+.team .member .social a:hover i {
+    color: #0f0e0e;
+}
+
+.team .member .social a+a {
+    margin-left: 8px;
+}
+
+
+#testimonials {
+    padding: 9% 15%;
+    text-align: center;
+    background-color: #111112;
+    color: #fff;
+
+}
+
+.testimonial-image {
+    padding: 3%;
+}
+
+.carousel-item {
+    padding: 4% 8%;
+}
+
+#Contact-us {
+    background-color: #fff;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(13, 31, 60);
+    text-align: center;
+}
